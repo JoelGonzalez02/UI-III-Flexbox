@@ -341,7 +341,7 @@ Services page
 .list {
     width: 20%;
     position: absolute;
-    top: 248%;
+    top: 255%;
     line-height: 2;
     left: 11%;
     margin-top: 2em;
@@ -393,7 +393,7 @@ Product Page
     border: 1px solid black;
     background-color: #f0f0f0;
     border-radius: 70px;
-    border: 1px dashed black;
+    border: 1px solid black;
 }
 
 @keyframes shadowChange {
@@ -407,3 +407,51 @@ Product Page
     animation: shadowChange 1s infinite alternate linear;
 }
 
+.productheader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 2em auto;
+}
+
+.phbox {
+    width: 50%;
+}
+
+.productheader h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+.productheader p {
+    letter-spacing: 1.5px;
+}
+
+/* Media Queries 
+------------------------------------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+   
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+  }
